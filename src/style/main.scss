@@ -1,0 +1,78 @@
+@import "config";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	border: 0;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf") format('ttf');
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Bold.ttf") format('ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Italic.ttf") format('ttf');
+  font-style: italic;
+}
+
+body,html {
+	min-width: 320px;
+	margin: 0;
+	padding: 0;
+	/*height: 100%;*/
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#app {
+	/*min-height: 100%;*/
+	position: relative;
+}
+
+header {
+	background:#000;
+	height: 56px;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#main {
+	margin-top: 56px;
+}
+#logo {
+	width: 115px;
+	height:32px;
+	background: url('#{$imgPath}/logoFull.png');
+	background-size: 115px 32px;
+	margin: 12px 0 0 -55px;
+    left: 50%;
+    position: absolute;
+}
+
+#navbar {
+	border-bottom: 10px double white; 
+    border-top: 3px solid white; 
+    content:"";
+    height: 17px; 
+    width:25px;
+    margin: 18px 0 0 12px;
+	float:left;
+	cursor: pointer;
+	position: absolute;
+}

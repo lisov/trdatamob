@@ -1,0 +1,48 @@
+.authError {
+	margin: 0 9px;
+    font-size: 11px;
+}
+
+.userBlock {
+    border-top: 1px solid #888;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+#login, #pass {
+    padding: 5px;
+    border: none;
+    margin: 5px 9px;
+    background: rgba(255, 255, 255, 0.2);
+    width: 150px;
+        color: #a2a2a2;
+}
+.logInBtn {
+    margin: 5px 9px;
+    background: #636363;
+    width: 150px;
+    border: none;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+}
+
+.userAva {
+    float: left;
+    margin: 0 8px;
+}
+.userAva img{
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.userPosition {
+    font-size: 11px;
+}
+.logOut{
+    padding-left: 45px;
+}
+#user{
+    height: 50px;
+}

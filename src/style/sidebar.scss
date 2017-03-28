@@ -1,0 +1,189 @@
+@import "config";
+
+#sidebar {
+	position: fixed;
+    top: 56px;
+    display: none;
+    bottom: 0;
+    width: 100%;
+    background-color: #5a5a5a;
+    color: #fff;
+}
+
+.openBar #sidebar {
+    display: block;
+}
+
+.navBlock {
+    width: 168px;
+    background-color: #424242;
+    height: 100%;
+    float: left;
+}
+
+.navMarkets {
+	display: none;
+	position: absolute;
+    left: 168px;
+    width: 100%;
+    top: 0;
+    background-color: #5a5a5a;
+    height: 100%;
+    padding-top: 8px;
+}
+.navMarkets li {
+	padding: 5px 15px 5px 25px;
+}
+
+.navCountry {
+	font-size: 14px;
+    color: #a9a9a9;
+    text-transform: uppercase;
+}
+
+.openItem .navMarkets {
+	display: block;
+}
+.openItem .navIcon{
+    background-position: 0 -29px !important;
+}
+.openItem {
+	background-color: #5a5a5a;
+}
+.navItemMain{
+	height: 42px;
+	line-height: 42px;
+	padding-left: 25px;
+	width: 168px;
+	position: relative;
+}
+.navItemMain:after {
+    content: '';
+    border: 3px solid transparent;
+    border-left: 5px solid white;
+    position: absolute;
+    right: 23px;
+    top: 19px;
+}
+
+
+.navIcon {
+	width: 33px;
+    height: 33px;
+	float: left;
+	margin-top: 4px;
+	background-size: 33px !important;
+}
+.navOpen .navIcon {
+	background-position: 0 -29px !important;
+}
+
+.marketIcon {
+	background:  url(#{$imgPath}/icons/market.png);
+}
+
+.navItemSimple {
+    height: 42px;
+    line-height: 42px;
+    padding-left: 25px;
+    width: 168px;
+}
+
+.getWidgetHint {
+    float: left;
+    width:175px;
+    margin: 15px 0 0 20px;
+    height: 150px;
+    
+}
+
+.getWidgetHint img{
+    margin: 0 auto;
+    display: block;
+}
+
+.emptyHintTitle {
+    padding: 10px 0 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:#ddd;
+}
+
+.emptyHintDesc {
+    color: #ccc;
+}
+
+.emptyArrow {
+    width: 158px;
+    height: 131px;
+    background:  url(#{$imgPath}/emptyArrow.png);
+}
+
+
+/*
+.searchLi {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.searchToggle {
+    position: relative;
+    
+}
+
+.searchToggle:after {
+    content: '';
+    border: 3px solid transparent;
+    border-top: 5px solid white;
+    position: absolute;
+    right: 25px;
+    top: 5px;
+}
+
+.serchVar {
+    display: none;
+    padding: 0 60px;
+    margin-top: 5px;
+}
+
+.openSearchVar .serchVar{
+    display: block;
+}
+
+.openSearchVar .searchToggle:after{
+    border-bottom: 5px solid white;
+    border-top: none;
+}
+.serchVar li {
+    padding: 5px 0;
+}
+
+.serchVar li:first-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+*/
+.navItemTest {
+    color: #ffffff;
+    border-top: 1px solid #888;
+    margin-top: 15px;    
+}
+
+.langBlock {
+    width: 168px;
+    height: 30px;
+        bottom: 10px;
+    position: absolute;
+}
+.langBlock div {
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 14px;
+}
+.langBold {
+    font-weight: bold;
+    color: #888;
+
+}
+
+
